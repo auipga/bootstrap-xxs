@@ -17,23 +17,24 @@ New classes are:
 1. Download and include [bootstrap-xss-tn.css](https://raw.githubusercontent.com/auipga/bootstrap-xss/master/bootstrap-xss-tn.css) or [bootstrap-xss.css](https://raw.githubusercontent.com/auipga/bootstrap-xss/master/bootstrap-xss.css)  in your project. This will handle most functions.
 
 2. For full support you have to patch your `bootstrap.css` (tested only with v3.2.0)
-  * Method 1: Apply patch file [bootstrap.css.patch](https://raw.githubusercontent.com/auipga/bootstrap-xss/master/bootstrap.css.patch)
+  * Method 1: Apply [bootstrap.css.patch](https://raw.githubusercontent.com/auipga/bootstrap-xss/master/bootstrap.css.patch) (unminified only)
   * Method 2: Use Regex to search and replace in bootstrap.css/bootstrap.min.css<br>
 search for `@media \(max-width: ?767px\)( ?\{\n? *.(visible|hidden))`<br>
 replace with `@media (min-width: 480px) and (max-width: 767px)$1`<br>
 Should be 5 matches.<br>
-This will work for minimized and development version.
+Method 2 will work for minimized and development version.
 
 ### Usage
 
 Same usage as for `xs`, `sm`, `md` or `lg`.
 
 ### Testing
-There is a small (and ugly) script, which provides the browser width, calculated difference to the next breakpoints and recognised size by CSS. Include the [bsdebug.js](https://github.com/auipga/bootstrap-xxs/blob/master/bsdebug.js), that's it.<br>
+There is a small (and ugly) script, which provides the browser width, calculated difference to the next breakpoints and recognised size by CSS. It requires jQuery (tested only with v1.11.1). Include [bsdebug.js](https://github.com/auipga/bootstrap-xxs/blob/master/bsdebug.js) in your project (after jQuery), reload.<br>
+Now resize your browser and watch the overlay.
 ![](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/doc_images/bsdebug_1.png)<br>
 ![](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/doc_images/bsdebug_2.png)
 
-Or use it from a bookmarklet. Create a new bookmark with target:
+Alternative: Use it from a bookmarklet. Create a new bookmark with target:
 ```javascript
 javascript:(function%20(){var%20n=document.createElement('script');n.setAttribute('language','JavaScript');n.setAttribute('src','https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bsdebug_bookmarklet.js?rand='+new%20Date().getTime()'+);document.body.appendChild(n);})();
 ```
