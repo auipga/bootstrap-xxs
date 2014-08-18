@@ -29,10 +29,8 @@ Should be 5 matches. (Lines 6016, 6031, 6036, 6041, 6136)
 Same usage as for `xs`, `sm`, `md` or `lg`.
 
 ### Testing
-There is a simple (=ugly) script, which provides the browser width, calculated difference to the next breakpoints and recognised size by CSS.
-Include the [bsdebug.js](https://github.com/auipga/bootstrap-xxs/blob/master/bsdebug.js), that's it. 
-![](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/doc_images/bsdebug_1.png)
-
+There is a simple (=ugly) script, which provides the browser width, calculated difference to the next breakpoints and recognised size by CSS. Include the [bsdebug.js](https://github.com/auipga/bootstrap-xxs/blob/master/bsdebug.js), that's it.<br>
+![](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/doc_images/bsdebug_1.png)<br>
 ![](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/doc_images/bsdebug_2.png)
 
 Or use it from a bookmarklet. Create a new bookmark with target:
