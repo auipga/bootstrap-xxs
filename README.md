@@ -3,21 +3,20 @@ bootstrap-xss
 
 This project provides support for handling smaller screen sizes with Bootstrap 3 (CSS version only).<br>
 The new breakpoints are
-* `xss` at 480px
-* `tn` at 384px
+* bootstrap-xss.css: `xss` at 480px
+* bootstrap-xss-tn.css: `xss` at 480px and `tn` at 384px
 
 New classes are:
 * `col-xss-[1-12]` with corresponding `-pull-`, `-push-` and `-offset-`
 * `hidden-xss`
 * `visible-xss`, `visible-xss-block`, `visible-xss-inline`, `visible-xss-inline-block`
-Same for `-tn-`
+* Same for `-tn-` (only included in `xss-tn` version)
 
 ### Installation
 
-1. Download and include [bootstrap-xss-tn.css](https://raw.githubusercontent.com/auipga/bootstrap-xss/master/bootstrap-xss-tn.css) in your project. This will handle most functions.
+1. Download and include [bootstrap-xss-tn.css](https://raw.githubusercontent.com/auipga/bootstrap-xss/master/bootstrap-xss-tn.css) or [bootstrap-xss.css](https://raw.githubusercontent.com/auipga/bootstrap-xss/master/bootstrap-xss.css)  in your project. This will handle most functions.
 
 2. For full support you have to patch your `bootstrap.css` (tested only with v3.2.0)
-
   * Method 1: Apply patch file [bootstrap.css.patch](https://raw.githubusercontent.com/auipga/bootstrap-xss/master/bootstrap.css.patch)
   * Method 2: Use Regex to search and replace in bootstrap.css/bootstrap.min.css<br>
 search for `@media \(max-width: ?767px\)( ?\{\n? *.(visible|hidden))`<br>
