@@ -7,7 +7,7 @@
     position: relative;
 }
 
-@media (max-width: 480px) {
+@media (min-width: 384px) and (max-width: 479px) {
     .col-xxs-1, .col-xxs-2, .col-xxs-3, .col-xxs-4, .col-xxs-5, .col-xxs-6, .col-xxs-7, .col-xxs-8, .col-xxs-9, .col-xxs-10, .col-xxs-11, .col-xxs-12 {
         float: left;
     }
@@ -166,7 +166,7 @@
     }
 }
 
-@media (max-width: 384px) {
+@media (max-width: 383px) {
     .col-tn-1, .col-tn-2, .col-tn-3, .col-tn-4, .col-tn-5, .col-tn-6, .col-tn-7, .col-tn-8, .col-tn-9, .col-tn-10, .col-tn-11, .col-tn-12 {
         float: left;
     }
