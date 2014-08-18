@@ -30,7 +30,7 @@ Same usage as for `xs`, `sm`, `md` or `lg`.
 
 ### Testing
 There is a small (and ugly) script, which provides the browser width, calculated difference to the next breakpoints and recognised size by CSS. It requires jQuery (tested only with v1.11.1). Include [bsdebug.js](https://github.com/auipga/bootstrap-xxs/blob/master/bsdebug.js) in your project (after jQuery), reload.<br>
-Now resize your browser and watch the overlay.
+Now resize your browser and watch the overlay.<br>
 ![](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/doc_images/bsdebug_1.png)<br>
 ![](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/doc_images/bsdebug_2.png)
 
