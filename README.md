@@ -4,7 +4,7 @@ bootstrap-xss
 This project provides support for handling smaller screen sizes with Bootstrap 3 (CSS version only).<br>
 The new breakpoints are
 * `xss` at 480px
-* `tn`at 384px
+* `tn` at 384px
 
 New classes are:
 * `col-xss-[1-12]` with corresponding `-pull-`, `-push-` and `-offset-`
@@ -30,7 +30,12 @@ Same usage as for `xs`, `sm`, `md` or `lg`.
 
 ### Testing
 There is a simple (=ugly) script, which provides the browser width, calculated difference to the next breakpoints and recognised size by CSS.
-Just include the JS file.
+Include the [bsdebug.js](https://github.com/auipga/bootstrap-xxs/blob/master/bsdebug.js), that's it. 
 ![](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/doc_images/bsdebug_1.png)
 
 ![](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/doc_images/bsdebug_2.png)
+
+Or use it from a bookmarklet. Create a new bookmark with target:
+```javascript
+javascript:(function%20(){var%20n=document.createElement('script');n.setAttribute('language','JavaScript');n.setAttribute('src','https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bsdebug_bookmarklet.js?rand='+new%20Date().getTime()'+);document.body.appendChild(n);})();
+```
