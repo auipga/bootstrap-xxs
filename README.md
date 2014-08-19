@@ -36,5 +36,5 @@ Now resize your browser and watch the overlay.<br>
 
 Alternative: Use it from a bookmarklet. Create a new bookmark with target:
 ```javascript
-javascript:(function%20(){var%20n=document.createElement('script');n.setAttribute('language','JavaScript');n.setAttribute('src','https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bsdebug_bookmarklet.js?rand='+new%20Date().getTime());document.body.appendChild(n);})();
+javascript:(function%20(){var%20n=document.createElement('script');n.setAttribute('language','JavaScript');n.setAttribute('src','https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bsdebug_bookmarklet.min.js?rand='+new%20Date().getTime());document.body.appendChild(n);})();
 ```
