@@ -10,7 +10,7 @@ var runBsDebug = function() {
         left: 10px;\
         background-color: rgba(255, 255, 255, 0.80);\
         color: #00000;\
-        z-index: 100;\
+        z-index: 9999;\
     }\
     #bsdebug table {\
         border: 1px;\
