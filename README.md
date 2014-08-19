@@ -23,6 +23,7 @@ search for `@media \(max-width: ?767px\)( ?\{\n? *.(visible|hidden))`<br>
 replace with `@media (min-width: 480px) and (max-width: 767px)$1`<br>
 Should be 5 matches.<br>
 Method 2 will work for minimized and development version.
+  * Method 3: Use [bootstrap-patched.css] (https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bootstrap-patched.css) or [bootstrap-patched.min.css] (https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bootstrap-patched.min.css)
 
 ### Usage
 
