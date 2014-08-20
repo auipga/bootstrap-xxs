@@ -1,23 +1,23 @@
-bootstrap-xss
+bootstrap-xxs
 =============
 
 This project provides support for handling smaller screen sizes with Bootstrap 3 (CSS version only).<br>
 The new breakpoints are
-* bootstrap-xss.css: `xss` at 480px
-* bootstrap-xss-tn.css: `xss` at 480px and `tn` at 384px
+* bootstrap-xxs.css: `xxs` at 480px
+* bootstrap-xxs-tn.css: `xxs` at 480px and `tn` at 384px
 
 New classes are:
-* `col-xss-[1-12]` with corresponding `-pull-`, `-push-` and `-offset-`
-* `hidden-xss`
-* `visible-xss`, `visible-xss-block`, `visible-xss-inline`, `visible-xss-inline-block`
-* Same for `-tn-` (only included in `xss-tn` version)
+* `col-xxs-[1-12]` with corresponding `-pull-`, `-push-` and `-offset-`
+* `hidden-xxs`
+* `visible-xxs`, `visible-xxs-block`, `visible-xxs-inline`, `visible-xxs-inline-block`
+* Same for `-tn-` (only included in `xxs-tn` version)
 
 ### Installation
 
-1. Download and include [bootstrap-xss-tn.css](https://raw.githubusercontent.com/auipga/bootstrap-xss/master/bootstrap-xss-tn.css) or [bootstrap-xss.css](https://raw.githubusercontent.com/auipga/bootstrap-xss/master/bootstrap-xss.css)  in your project. This will handle most functions.
+1. Download and include [bootstrap-xxs-tn.css](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bootstrap-xxs-tn.css) or [bootstrap-xxs.css](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bootstrap-xxs.css)  in your project. This will handle most functions.
 
 2. For full support you have to patch your `bootstrap.css` (tested only with v3.2.0)
-  * Method 1: Apply [bootstrap.css.patch](https://raw.githubusercontent.com/auipga/bootstrap-xss/master/bootstrap.css.patch) (unminified only)
+  * Method 1: Apply [bootstrap.css.patch](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bootstrap.css.patch) (unminified only)
   * Method 2: Use Regex to search and replace in bootstrap.css/bootstrap.min.css<br>
 search for `@media \(max-width: ?767px\)( ?\{\n? *.(visible|hidden))`<br>
 replace with `@media (min-width: 480px) and (max-width: 767px)$1`<br>
