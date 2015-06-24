@@ -5,7 +5,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 ===================================================================
 --- css/bootstrap.css	(revision )
 +++ css/bootstrap.css	(revision )
-@@ -6013,7 +6013,7 @@
+@@ -6576,7 +6576,7 @@
  .visible-lg-inline-block {
    display: none !important;
  }
@@ -14,7 +14,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
    .visible-xs {
      display: block !important;
    }
-@@ -6028,17 +6028,17 @@
+@@ -6591,17 +6591,17 @@
      display: table-cell !important;
    }
  }
@@ -35,7 +35,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
    .visible-xs-inline-block {
      display: inline-block !important;
    }
-@@ -6133,7 +6133,7 @@
+@@ -6696,7 +6696,7 @@
      display: inline-block !important;
    }
  }
