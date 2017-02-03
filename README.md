@@ -14,9 +14,13 @@ New classes are:
 
 ### Installation
 
-1. Download and include [bootstrap-xxs-tn.css](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bootstrap-xxs-tn.css) or [bootstrap-xxs.css](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bootstrap-xxs.css)  in your project. This will handle most functions.
+1. Download the tarball or install with package managers (recommanded)
+  - `bower install bootstrap-xxs`
+  - or `npm install bootstrap-xxs`
 
-2. For full support you have to patch your `bootstrap.css` (tested only with v3.2.0)
+2. Include [bootstrap-xxs-tn.css](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bootstrap-xxs-tn.css) or [bootstrap-xxs.css](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bootstrap-xxs.css)  in your project. This will handle most functions.
+
+3. For full support you have to patch your `bootstrap.css` (tested only with v3.2.0)
   * Method 1: Apply [bootstrap.css.patch](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bootstrap.css.patch) (unminified only)
   * Method 2: Use Regex to search and replace in bootstrap.css/bootstrap.min.css<br>
 search for `@media \(max-width: ?767px\)( ?\{\n? *.(visible|hidden))`<br>
