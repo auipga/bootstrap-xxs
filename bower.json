@@ -1,5 +1,6 @@
 {
   "name": "bootstrap-xxs",
+  "version": "1.0.0-sirap-rc.0",
   "homepage": "https://github.com/sirap-group/bootstrap-xxs",
   "authors": [
     "Rémi Becheras <rbecheras@sirap.fr>"
