@@ -41,3 +41,6 @@ Alternative: Use this bookmarklet. Create a new bookmark with target:
 ```javascript
 javascript:(function%20(){var%20n=document.createElement('script');n.setAttribute('language','JavaScript');n.setAttribute('src','http://manueltransfeld.de/js/bsdebug_bookmarklet.min.js');document.body.appendChild(n);})();
 ```
+
+### Demo
+Visit www.manueltransfeld.de and double click on my photo to toggle BS-Debug.
