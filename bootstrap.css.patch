@@ -14,7 +14,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
    .visible-xs {
      display: block !important;
    }
-@@ -6591,17 +6591,17 @@
+@@ -6582,17 +6582,17 @@
      display: table-cell !important;
    }
  }
@@ -35,7 +35,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
    .visible-xs-inline-block {
      display: inline-block !important;
    }
-@@ -6696,7 +6696,7 @@
+@@ -6687,7 +6687,7 @@
      display: inline-block !important;
    }
  }
