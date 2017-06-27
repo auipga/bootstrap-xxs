@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-xxs",
-  "version": "1.0.0-sirap-rc.0",
+  "version": "1.0.0-rc.0",
   "description": "Breakpoints at 480px and 384px for Bootstrap 3",
   "main": "bootstrap-xxs-tn.css",
   "scripts": {
@@ -8,16 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sirap-group/bootstrap-xxs.git"
+    "url": "git+https://github.com/auipga/bootstrap-xxs.git"
   },
   "keywords": [
     "bootstrap",
     "bootstrap-xss"
   ],
-  "author": "Rémi Becheras <rbecheras@sirap.fr>",
+  "author": "Manuel Transfeld <auipga@gmail.com>",
+  "contributors": [
+    "Rémi Becheras <rbecheras@sirap.fr>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sirap-group/bootstrap-xxs/issues"
+    "url": "https://github.com/auipga/bootstrap-xxs/issues"
   },
-  "homepage": "https://github.com/sirap-group/bootstrap-xxs#readme"
+  "homepage": "https://github.com/auipga/bootstrap-xxs#readme"
 }
