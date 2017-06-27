@@ -18,7 +18,7 @@ New classes are:
   - `bower install bootstrap-xxs`
   - or `npm install bootstrap-xxs`
 
-2. Include [bootstrap-xxs-tn.css](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bootstrap-xxs-tn.css) or [bootstrap-xxs.css](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bootstrap-xxs.css)  in your project. This will handle most functions.
+2. Include [bootstrap-xxs-tn.css](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bootstrap-xxs-tn.css) or [bootstrap-xxs.css](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bootstrap-xxs.css) in your project. This will handle most functions.
 
 3. For full support you have to patch your `bootstrap.css` (tested only with v3.2.0)
   * Method 1: Apply [bootstrap.css.patch](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bootstrap.css.patch) (unminified only)
@@ -27,7 +27,7 @@ search for `@media \(max-width: ?767px\)( ?\{\n? *.(visible|hidden))`<br>
 replace with `@media (min-width: 480px) and (max-width: 767px)$1`<br>
 Should be 5 matches.<br>
 Method 2 will work for minimized and development version.
-  * Method 3: Use [bootstrap-patched.css] (https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bootstrap-patched.css) or [bootstrap-patched.min.css] (https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bootstrap-patched.min.css)
+  * Method 3: Use [bootstrap-patched.css](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bootstrap-patched.css) or [bootstrap-patched.min.css](https://raw.githubusercontent.com/auipga/bootstrap-xxs/master/bootstrap-patched.min.css)
 
 ### Usage
 
