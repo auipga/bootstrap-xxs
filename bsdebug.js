@@ -3,14 +3,13 @@
  */
 
 jQuery(document).ready(function($){
-
     $('head').append('<style type="text/css">\
     #bsdebug {\
         position: fixed;\
         top: 10px;\
         left: 10px;\
-        background-color: rgba(255, 255, 255, 0.80);\
-        color: #00000;\
+        background-color: rgba(255,255,255,0.80);\
+        color: #000000;\
         z-index: 9999;\
     }\
     #bsdebug table {\
@@ -28,7 +27,7 @@ jQuery(document).ready(function($){
             font-weight: bold;\
     }\
     #bsdebug .highlighted {\
-        background-color: rgba(15, 230, 0, 0.67);\
+        background-color: rgba(15,230,0,0.67);\
     }\
     </style>');
 
@@ -36,8 +35,8 @@ jQuery(document).ready(function($){
         <table>\
             <tr id="bsdebug-size">\
                 <td colspan="7" style="text-align: left">\
-                    <span class="bold hidden-tn hidden-xxs"><a href="https://github.com/auipga/bootstrap-xxs/">BS-Debug</a></span>\
-                    | w<span class="hidden-tn">idth</span>:\
+                    <span class="bold hidden-tn hidden-xxs"><a href="https://github.com/auipga/bootstrap-xxs/">BS-Debug</a> | </span>\
+                    w<span class="hidden-tn">idth</span>:\
                     <span class="bold" id="bsdebug-width">?</span>px\
                     <span title="ScrollbarWidth" class="small" style="border-bottom: 1px black dotted; cursor: help;">(-'+getScrollbarWidth()+'px)</span>\
                     | h<span class="hidden-tn">eigth</span>:\
@@ -46,12 +45,12 @@ jQuery(document).ready(function($){
             </tr>\
             <tr id="bsdebug-breakpoint">\
                 <th></th>\
-                <td><span class="visible-tn-block  highlighted">TN</span><span class="hidden-tn">TN</span></td>\
+                <td><span class="visible-tn-block highlighted">TN</span><span class="hidden-tn">TN</span></td>\
                 <td><span class="visible-xxs-block highlighted">XXS</span><span class="hidden-xxs">XXS</span></td>\
-                <td><span class="visible-xs-block  highlighted">XS</span><span class="hidden-xs">XS</span></td>\
-                <td class="hidden-tn"><span class="visible-sm-block  highlighted">SM</span><span class="hidden-sm">SM</span></td>\
-                <td class="hidden-tn hidden-xxs"><span class="visible-md-block  highlighted">MD</span><span class="hidden-md">MD</span></td>\
-                <td class="hidden-tn hidden-xxs"><span class="visible-lg-block  highlighted">LG</span><span class="hidden-lg">LG</span></td>\
+                <td><span class="visible-xs-block highlighted">XS</span><span class="hidden-xs">XS</span></td>\
+                <td class="hidden-tn"><span class="visible-sm-block highlighted">SM</span><span class="hidden-sm">SM</span></td>\
+                <td class="hidden-tn hidden-xxs"><span class="visible-md-block highlighted">MD</span><span class="hidden-md">MD</span></td>\
+                <td class="hidden-tn hidden-xxs"><span class="visible-lg-block highlighted">LG</span><span class="hidden-lg">LG</span></td>\
             </tr>\
             <tr id="bsdebug-min" class="small"><th>Min</th><td>0px</td><td>≥384px</td><td>≥480px</td><td class="hidden-tn">≥768px</td><td class="hidden-tn hidden-xxs">≥992px</td><td class="hidden-tn hidden-xxs">≥1200px</td></tr>\
             <tr id="bsdebug-max" class="small"><th>Max</th><td>&lt;383px</td><td>&lt;479px</td><td>&lt;767px</td><td class="hidden-tn">&lt;991px</td><td class="hidden-tn hidden-xxs">&lt;1199px</td><td class="hidden-tn hidden-xxs">&infin;</td></tr>\
@@ -86,7 +85,7 @@ jQuery(document).ready(function($){
             }
             $(this).text(diff);
         });
-    });
+    }).trigger('resize');
 });
 
 /*
